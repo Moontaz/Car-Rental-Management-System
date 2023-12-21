@@ -2,7 +2,7 @@
 
 The Car Rental Management System is a Java application designed to manage a fleet of cars, 
 providing functionalities for data insertion, retrieval, and deletion. 
-This system uses a simple MVC (Model-View-Controller) architecture and stores car information in a CSV file.
+This system uses a simple MVC (Model-View-Controller) architecture, Binary Tree data structure, and stores car information in a CSV file.
 
 ## Features
 
