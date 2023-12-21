@@ -46,10 +46,10 @@ Remove a car from the system and update the CSV file.
 
 The project is organized into the following packages:
 
-- **model**: Contains the [`Car`](CarRental\src\model\car.java) and [`TodoModel`](CarRental\src\model\TodoModel.java) classes representing the car and todo model.
-- **repository**: Manages data storage and retrieval with the [`TodoRepository`](CarRental\src\repository) class.
-- **service**: Implements business logic with the [`TodoService`](CarRental\src\service) class.
-- **controller**: Handles user input and application flow with the [`Controller`](CarRental\src\controller) class.
+- **model**: Contains the [`Car`](CarRentalManagementSystem\src\model\car.java) and [`TodoModel`](CarRentalManagementSystem\src\model\TodoModel.java) classes representing the car and todo model.
+- **repository**: Manages data storage and retrieval with the [`TodoRepository`](CarRentalManagementSystem\src\repository) class.
+- **service**: Implements business logic with the [`TodoService`](CarRentalManagementSystem\src\service) class.
+- **controller**: Handles user input and application flow with the [`Controller`](CarRentalManagementSystem\src\controller) class.
 - **database**: Database file.
 
 ## Getting Started
@@ -63,6 +63,6 @@ Follow these steps to run the Car Rental Management System:
    ```
 
 ### 2. Change database path:
-   Change CSV file path or [`mydata.csv`](CarRental/src/mydata.csv) path on [`TodoView.java`](CarRental\src\view\TodoView.java) file on line 397
+   Change CSV file path or [`mydata.csv`](CarRentalManagementSystem/src/mydata.csv) path on [`TodoView.java`](CarRentalManagementSystem\src\view\TodoView.java) file on line 397
 ### 3. Run main file:
-   run [`main.java`](CarRental\src\Main.java)
+   run [`main.java`](CarRentalManagementSystem\src\Main.java)
